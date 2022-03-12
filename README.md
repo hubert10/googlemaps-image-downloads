@@ -2,7 +2,7 @@
 
 Simple tool to download image tiles from Google Maps via the Static-Maps API and Merge them back together using GDAL API
 
-![preview image](preview.PNG)
+![preview image](images/preview.PNG)
 
 ## How it works
 
@@ -71,4 +71,4 @@ Just download the latest release from the
     python downloads/merge_large_nbr_tiles.py
     ```
 
-    ![satellite sample](satellite_sample.PNG)
+    ![satellite sample](images/satellite_sample.PNG)
