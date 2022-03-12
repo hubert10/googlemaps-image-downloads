@@ -1,17 +1,15 @@
 # Google Maps Static API Image Downloader
 
-Simple tool to download image tiles from Google Maps via the Static-Maps API and Merge them back together using GDAL API
+Simple tool to download image tiles from Google Maps via the Static-Maps API and Merge them back together using GDAL API.
 
 ![preview image](images/preview.PNG)
 
 ## How it works
 
-* Provide the Extent coordinates of your area of interest as GEOJSON foormat
-
-* Give the tool two sets of latitudes and longitudes for the north-west and south-east of the area you wish to download
-the imagery from
-* The tool calculates how many individual image tiles it needs to get from Google's Static-Maps API and begins to
-download them
+* Provide the Extent coordinates of your area of interest as GEOJSON format
+* All parameters are set by defautl can be modified on the code: such
+as the tile size which is set to 1024*1024, the zoom etc
+* The tool calculates how many individual image tiles it needs to get from Google's Static-Maps API and begins to download them
 * All image tiles are stitched together and a preview showed onscreen
 * The image is also saved to a file
 
