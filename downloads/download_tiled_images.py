@@ -36,9 +36,9 @@ def get_maps_image(filename):
         """
         # Hint: 
         Linux
-            export GOOGLE_MAPS_API_KEY=AIzaSyCQ47Kk5A8LD0odsoBdBTJ5HjuUp8FnV2k
+            export GOOGLE_MAPS_API_KEY=AIzaS...........
         Windows
-            set GOOGLE_MAPS_API_KEY=AIzaS.............
+            set GOOGLE_MAPS_API_KEY=AIzaS..............
 
         """
         sys.exit(1)
@@ -47,7 +47,7 @@ def get_maps_image(filename):
     create_directories(data_dir)
 
     # api key at some point
-    api_key = GOOGLE_MAPS_API_KEY  # "AIzaSyCQ47Kk5A8LD0odsoBdBTJ5HjuUp8FnV2k"  # You will need to get your own Google Maps Static Images
+    api_key = GOOGLE_MAPS_API_KEY  # "AIzaS.........."  # You will need to get your own Google Maps Static Images
     grid_path = PROJECT_ROOT + "Data/grids/"
     image_path = PROJECT_ROOT + "Data/images/"
     split(filename, grid_path)
@@ -55,7 +55,7 @@ def get_maps_image(filename):
 
 
 # Path to the GeoJson Feature Extent file of your Region of Interest (ROI)
-filename = PROJECT_ROOT + "Input/nigeria.geojson"
+filename = PROJECT_ROOT + "Input/aoi.geojson"
 
 
 # Configure logging
